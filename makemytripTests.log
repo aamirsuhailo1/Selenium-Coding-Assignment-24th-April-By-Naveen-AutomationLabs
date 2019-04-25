@@ -1,0 +1,11 @@
+2019-04-25 17:29:13,375  INFO [main] SearchFlightTests:35 - Browser launched
+2019-04-25 17:29:31,440  INFO [main] SearchFlightTests:37 - Navigated to url
+2019-04-25 17:29:35,536  INFO [main] SearchFlightTests:43 - ====== searchFlight Started=====
+2019-04-25 17:29:41,037  INFO [main] SearchFlightTests:48 - Clicked on Flights
+2019-04-25 17:29:41,298  INFO [main] SearchFlightTests:53 - Clicked on RoundTrip
+2019-04-25 17:29:43,309  INFO [main] SearchFlightTests:58 - Selected From City
+2019-04-25 17:29:50,086  INFO [main] SearchFlightTests:63 - Selected To City
+2019-04-25 17:29:52,086  INFO [main] SearchFlightTests:68 - Selected Departure Date
+2019-04-25 17:29:56,582  INFO [main] SearchFlightTests:73 - Selected Return Date
+2019-04-25 17:29:58,481  INFO [main] SearchFlightTests:78 - Clicked on Search Button
+2019-04-25 17:30:03,490  INFO [main] SearchFlightTests:48 - ====== searchFlight Finished=====
