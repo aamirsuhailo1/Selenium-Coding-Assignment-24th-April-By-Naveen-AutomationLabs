@@ -17,6 +17,8 @@ public class BrowserLaunch {
 	
 	public static WebDriver openBrowser(String browserName) {
 		
+	String operatingSystem = System.getProperty("os.name");
+	if(operatingSystem.startsWith("Windows")) {
 		if(browserName.equalsIgnoreCase("chrome")) {
 			ChromeOptions cp = setChromeOptions();
 			WebDriverManager.chromedriver().setup();
@@ -30,12 +32,26 @@ public class BrowserLaunch {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
-		
+	  }
+	else if(operatingSystem.startsWith("Mac")) {
+		if(browserName.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver_mac64/chromedriver.exe");
+			driver = new ChromeDriver();
+		}	
+	}
+	else if(operatingSystem.startsWith("Linux")) {
+		if(browserName.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver_linux64/chromedriver.exe");
+			driver = new ChromeDriver();
+		}	
+	}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		return driver;
+		
 	}
+	
 	
 	/**
 	 * This method is used to set the chrome options

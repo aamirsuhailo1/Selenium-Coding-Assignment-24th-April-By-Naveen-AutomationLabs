@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91882" started-at="2019-04-25T11:58:36Z" finished-at="2019-04-25T12:00:08Z">
+  <suite name="Default suite" duration-ms="45595" started-at="2019-04-26T05:14:29Z" finished-at="2019-04-26T05:15:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91882" started-at="2019-04-25T11:58:36Z" finished-at="2019-04-25T12:00:08Z">
+    <test name="Default test" duration-ms="45595" started-at="2019-04-26T05:14:29Z" finished-at="2019-04-26T05:15:15Z">
       <class name="com.mmt.tests.SearchFlightTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="init" is-config="true" duration-ms="56616" started-at="2019-04-25T11:58:36Z" finished-at="2019-04-25T11:59:33Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="init" is-config="true" duration-ms="20284" started-at="2019-04-26T05:14:29Z" finished-at="2019-04-26T05:14:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="setUp" is-config="true" duration-ms="1757" started-at="2019-04-25T11:59:33Z" finished-at="2019-04-25T11:59:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="setUp" is-config="true" duration-ms="636" started-at="2019-04-26T05:14:49Z" finished-at="2019-04-26T05:14:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-04-25T11:59:35Z" finished-at="2019-04-25T11:59:35Z">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-04-26T05:14:50Z" finished-at="2019-04-26T05:14:50Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="searchFlight()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="searchFlight" duration-ms="27946" started-at="2019-04-25T11:59:35Z" finished-at="2019-04-25T12:00:03Z">
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="searchFlight" duration-ms="18971" started-at="2019-04-26T05:14:50Z" finished-at="2019-04-26T05:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlight -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-25T12:00:03Z" finished-at="2019-04-25T12:00:03Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="afterMethod" is-config="true" duration-ms="3" started-at="2019-04-26T05:15:09Z" finished-at="2019-04-26T05:15:09Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="getTotalFlights()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="getTotalFlights" is-config="true" duration-ms="5183" started-at="2019-04-25T12:00:03Z" finished-at="2019-04-25T12:00:08Z">
+        <test-method status="FAIL" signature="getTotalFlights()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="getTotalFlights" is-config="true" duration-ms="5124" started-at="2019-04-26T05:15:09Z" finished-at="2019-04-26T05:15:14Z">
           <exception class="java.lang.ArrayIndexOutOfBoundsException">
             <message>
               <![CDATA[-1]]>
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTotalFlights -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-25T12:00:09Z" finished-at="2019-04-25T12:00:09Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.mmt.tests.SearchFlightTests@26653222]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-26T05:15:15Z" finished-at="2019-04-26T05:15:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
