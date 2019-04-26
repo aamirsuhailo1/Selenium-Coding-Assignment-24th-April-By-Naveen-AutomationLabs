@@ -16,6 +16,8 @@ Hybrid framework with Page object model design pattern.
 ### WebdriverManagerAPI
 Used this API as it removes the dependency of driver exe files.
 
+Added browser selection for Mac and Linux as well
+
 ### src/main/java : 
 It contains the classes with functionalities that drives the test cases.
 ### src/test/java : 
